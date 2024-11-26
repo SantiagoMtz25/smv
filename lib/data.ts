@@ -1,7 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuCigarette } from "react-icons/lu";
+import { FaCode } from "react-icons/fa";
+import { MdElectricBolt } from "react-icons/md";
 import chatbot from "@/public/chatbot.png";
 import lab from "@/public/lab.gif";
 import trucks from "@/public/trucks.gif";
@@ -40,7 +40,7 @@ export const experiencesData = [
     location: "Mexico City, Mexico (Remote)",
     description:
       "I collaborate with a group of software engineers and test engineers to develop test infrastructure and test automation for Teradata AI Unlimited product, utilizing tools such as Linux, SQL, and Jenkins.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(FaCode),
     date: "Sep 2024 - Present",
   },
   {
@@ -48,7 +48,7 @@ export const experiencesData = [
     location: "Monterrey, Nuevo Leon, Mexico",
     description:
       "Responsible for supporting the Operations Demand team. Ensure business requirements are translated into technology implementation. \n\nReduced +120,000 hours in response times implementing a digitized form for safety procedures. \n\nDeveloped 2 more apps (Digitized Facilities Ticket Form, & Digitized Primary Check Procedures) supporting IWS Phase 2 (Digitalization) utilizing Power Automate, Power Apps and Graph API.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuCigarette),
     date: "Jan 2024 - June 2024",
   },
   {
@@ -56,8 +56,8 @@ export const experiencesData = [
     location: "Monterrey, Nuevo Leon, Mexico",
     description:
       "Translated business processes into data flow diagrams and data sets for analysis, using dashboards and visualizations. \n\nReviewed data discovery, profiling, and ensured data quality, using tools such as Collibra, Informatica, Excel and Pandas. Validated 100% of IT Support and End-User Assets company domains.",
-    icon: React.createElement(FaReact),
-    date: "June 2023 - Dec 2023",
+    icon: React.createElement(MdElectricBolt),
+    date: "June 2023 - Nov 2023",
   },
 ] as const;
 
